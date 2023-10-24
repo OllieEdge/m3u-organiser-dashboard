@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/ollie/.nvm/versions/node/v18.18.2/bin/node /Users/ollie/.nvm/versions/node/v18.18.2/bin/yarn
+
+PATH: 
+  /Users/ollie/.pyenv/shims:/opt/homebrew/opt/mysql@5.7/bin:/Users/ollie/.nvm/versions/node/v18.18.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/ollie/workspace/personal/iptv-editor-dashboard/node_modules/antd/node_modules'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "Oliver Edgington <oliver@edgington.com>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.2.6",
+      "@ant-design/pro-components": "^2.6.31",
+      "@umijs/max": "^4.0.87",
+      "antd": "^5.10.1"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.30",
+      "@types/react-dom": "^18.2.14",
+      "husky": "^8.0.3",
+      "lint-staged": "^15.0.2",
+      "prettier": "^3.0.3",
+      "prettier-plugin-organize-imports": "^3.2.3",
+      "prettier-plugin-packagejson": "^2.4.6",
+      "typescript": "^5.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
